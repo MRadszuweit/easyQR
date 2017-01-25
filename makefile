@@ -17,7 +17,7 @@ endif
 ifeq ($(strip $(OPT)),)
 		
 	CFLAGS = -fopenmp
-	OPTIONS = -march=native -fopenmp
+	OPTIONS = -march=native
 
 endif
 
